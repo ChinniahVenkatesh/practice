@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-22T17:20:17 IST" name="Suite" finished-at="2022-05-22T17:20:30 IST" duration-ms="12660">
+    <groups>
+    </groups>
+    <test started-at="2022-05-22T17:20:17 IST" name="Test" finished-at="2022-05-22T17:20:30 IST" duration-ms="12660">
+      <class name="AutomationTesting.Practice.index">
+        <test-method is-config="true" signature="browsercache()[pri:0, instance:AutomationTesting.Practice.index@12365c88]" started-at="2022-05-22T17:20:17 IST" name="browsercache" finished-at="2022-05-22T17:20:23 IST" duration-ms="5476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsercache -->
+        <test-method signature="indexPage()[pri:1, instance:AutomationTesting.Practice.index@12365c88]" started-at="2022-05-22T17:20:23 IST" name="indexPage" finished-at="2022-05-22T17:20:28 IST" duration-ms="5195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexPage -->
+        <test-method signature="Name()[pri:2, instance:AutomationTesting.Practice.index@12365c88]" started-at="2022-05-22T17:20:28 IST" name="Name" finished-at="2022-05-22T17:20:29 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Name -->
+        <test-method signature="address()[pri:3, instance:AutomationTesting.Practice.index@12365c88]" started-at="2022-05-22T17:20:29 IST" name="address" finished-at="2022-05-22T17:20:29 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method signature="Email()[pri:4, instance:AutomationTesting.Practice.index@12365c88]" started-at="2022-05-22T17:20:29 IST" name="Email" finished-at="2022-05-22T17:20:30 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+      </class> <!-- AutomationTesting.Practice.index -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
