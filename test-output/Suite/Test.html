@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 23 06:47:26 IST 2022</td>
+<td>Started on:</td><td>Mon May 23 18:21:32 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14967 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18252 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,101 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AutomationTesting.Practice.index.submit()'><b>submit</b><br>Test class: AutomationTesting.Practice.index</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submitbtn&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot; name=&quot;signup&quot; value=&quot;sign up&quot;&gt;...&lt;/button&gt; is not clickable at point (883, 908). Other element would receive the click: &lt;iframe id=&quot;aswift_3&quot; name=&quot;aswift_3&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20220518/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-9173866185064071&amp;amp;fa=1&amp;amp;ifi=4&amp;amp;uci=a!4&amp;amp;btvi=1&amp;amp;xpc=yILa2jL3gD&amp;amp;p=http%3A//demo.automationtesting.in&quot; data-google-container-id=&quot;a!4&quot; data-google-query-id=&quot;CKm-2ebU9fcCFa6Z2AUdV-AN-Q&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=101.0.4951.67)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;WX-5CG1285KPX&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8310a2b4c6c169d4d2ac5332beba71d, clickElement {id=7376ceac-4c88-4e33-95dc-8b350a5d591e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VENKATEC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50380/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b8310a2b4c6c169d4d2ac5332beba71d)] -&gt; xpath: //button[@id=&apos;submitbtn&apos;]]
+Session ID: b8310a2b4c6c169d4d2ac5332beba71d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at AutomationTesting.Practice.index.submit(index.java:287)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace481839538", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace481839538'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submitbtn&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot; name=&quot;signup&quot; value=&quot;sign up&quot;&gt;...&lt;/button&gt; is not clickable at point (883, 908). Other element would receive the click: &lt;iframe id=&quot;aswift_3&quot; name=&quot;aswift_3&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20220518/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-9173866185064071&amp;amp;fa=1&amp;amp;ifi=4&amp;amp;uci=a!4&amp;amp;btvi=1&amp;amp;xpc=yILa2jL3gD&amp;amp;p=http%3A//demo.automationtesting.in&quot; data-google-container-id=&quot;a!4&quot; data-google-query-id=&quot;CKm-2ebU9fcCFa6Z2AUdV-AN-Q&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=101.0.4951.67)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;WX-5CG1285KPX&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8310a2b4c6c169d4d2ac5332beba71d, clickElement {id=7376ceac-4c88-4e33-95dc-8b350a5d591e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VENKATEC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50380/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b8310a2b4c6c169d4d2ac5332beba71d)] -&gt; xpath: //button[@id=&apos;submitbtn&apos;]]
+Session ID: b8310a2b4c6c169d4d2ac5332beba71d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at AutomationTesting.Practice.index.submit(index.java:287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,35 +171,92 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AutomationTesting.Practice.index.indexPage()'><b>indexPage</b><br>Test class: AutomationTesting.Practice.index</td>
-<td></td>
-<td>5</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
-<tr>
-<td title='AutomationTesting.Practice.index.Email()'><b>Email</b><br>Test class: AutomationTesting.Practice.index</td>
-<td></td>
-<td>1</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
-<tr>
-<td title='AutomationTesting.Practice.index.gender()'><b>gender</b><br>Test class: AutomationTesting.Practice.index</td>
+<td title='AutomationTesting.Practice.index.country()'><b>country</b><br>Test class: AutomationTesting.Practice.index</td>
 <td></td>
 <td>0</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
 <tr>
-<td title='AutomationTesting.Practice.index.Hobbies()'><b>Hobbies</b><br>Test class: AutomationTesting.Practice.index</td>
+<td title='AutomationTesting.Practice.index.Emailtip()'><b>Emailtip</b><br>Test class: AutomationTesting.Practice.index</td>
 <td></td>
 <td>0</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
 <tr>
-<td title='AutomationTesting.Practice.index.address()'><b>address</b><br>Test class: AutomationTesting.Practice.index</td>
+<td title='AutomationTesting.Practice.index.password()'><b>password</b><br>Test class: AutomationTesting.Practice.index</td>
 <td></td>
 <td>0</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.photo()'><b>photo</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.month()'><b>month</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
 <tr>
 <td title='AutomationTesting.Practice.index.Name()'><b>Name</b><br>Test class: AutomationTesting.Practice.index</td>
 <td></td>
 <td>0</td>
-<td>AutomationTesting.Practice.index@2237bada</td></tr>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.day()'><b>day</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.phoneNo()'><b>phoneNo</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.gender()'><b>gender</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.Email()'><b>Email</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.year()'><b>year</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.indexPage()'><b>indexPage</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>4</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.Hobbies()'><b>Hobbies</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.languages()'><b>languages</b><br>Test class: AutomationTesting.Practice.index<br/>
+<a href="#Output-1940166039" onClick='toggleBox("Output-1940166039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1940166039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1940166039">
+<img src='C:\Users\VENKATEC\espncricinfo\testingqa\Screenshot\language.png'/><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.address()'><b>address</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>0</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
+<tr>
+<td title='AutomationTesting.Practice.index.skills()'><b>skills</b><br>Test class: AutomationTesting.Practice.index</td>
+<td></td>
+<td>1</td>
+<td>AutomationTesting.Practice.index@251ebf23</td></tr>
 </table><p>
 </body>
 </html>

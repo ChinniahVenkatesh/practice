@@ -9,7 +9,7 @@
       <class name="AutomationTesting.Practice.index">
         <methods>
           <include name="browsercache"/>
-          <include name="Email"/>
+          <include name="submit"/>
         </methods>
       </class> <!-- AutomationTesting.Practice.index -->
     </classes>
