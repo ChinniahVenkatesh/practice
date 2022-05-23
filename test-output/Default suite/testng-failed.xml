@@ -5,11 +5,8 @@
     <classes>
       <class name="AutomationTesting.Practice.index">
         <methods>
-          <include name="Name"/>
           <include name="browsercache"/>
-          <include name="address"/>
-          <include name="Email"/>
-          <include name="indexPage"/>
+          <include name="submit"/>
         </methods>
       </class> <!-- AutomationTesting.Practice.index -->
     </classes>

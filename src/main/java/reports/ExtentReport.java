@@ -19,6 +19,7 @@ public class ExtentReport {
 		rep.config().setDocumentTitle("PracticeReport");
 		rep.config().setReportName("chinniah");
 		report.setSystemInfo("Tester", "Chinniah");
+		report.addTestRunnerOutput("C:\\Users\\VENKATEC\\espncricinfo\\Practice\\index.log");
 		return report;
 	}
 }
